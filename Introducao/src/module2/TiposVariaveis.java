@@ -9,6 +9,5 @@ public class TiposVariaveis {
         double b = (double) a; // casting
 
        final int C = 10; // forma de declarar uma constante
-        C = 0;
     }
 }
