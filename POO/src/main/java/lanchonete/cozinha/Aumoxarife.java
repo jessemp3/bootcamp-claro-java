@@ -1,15 +1,16 @@
-package lanchonete;
+package lanchonete.cozinha;
 
 public class Aumoxarife {
-    public void buscar() {
+
+    void buscar() {
         System.out.println("Aumoxarife: buscando ingredientes...");
     }
-
-    public void entregar() {
+    //default
+    void entregar() {
         System.out.println("Aumoxarife: ingredientes entregues!");
     }
-
-    public void cancelar() {
+//default
+    void cancelar() {
         System.out.println("Aumoxarife: cancelando o pedido...");
     }
 }

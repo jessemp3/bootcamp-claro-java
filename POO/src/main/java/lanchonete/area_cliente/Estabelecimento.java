@@ -1,4 +1,8 @@
-package lanchonete;
+package lanchonete.area_cliente;
+
+import lanchonete.cozinha.Aumoxarife;
+import lanchonete.cozinha.Cozinheiro;
+import lanchonete.atendimento.Atendente;
 
 public class Estabelecimento {
     public static void main(String[] args) {
@@ -15,6 +19,20 @@ public class Estabelecimento {
         cozinheiro.entregar();
         atendente.entregar();
         cliente.receber();
+    }
+
+    public static class Cliente {
+        public void fazerPedido() {
+            System.out.println("Cliente: fazendo o pedido...");
+        }
+
+        public void receber() {
+            System.out.println("Cliente: pedido recebido!");
+        }
+
+        public void cancelar() {
+            System.out.println("Cliente: cancelando o pedido...");
+        }
     }
 }
 

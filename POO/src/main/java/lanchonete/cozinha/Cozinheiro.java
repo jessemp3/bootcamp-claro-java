@@ -1,6 +1,10 @@
-package lanchonete;
+package lanchonete.cozinha;
 
 public class Cozinheiro {
+    Aumoxarife aumoxarife = new Aumoxarife();
+
+
+
     public void cozinhar() {
         System.out.println("Cozinheiro: preparando o lanche...");
     }
